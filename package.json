@@ -39,5 +39,5 @@
     "@types/ws": "^8.2.0",
     "mqtt": "^4.2.8"
   },
-  "homepage": "https://github.com/akiifall/homebridge-mqtt-thermohygrometer#readme"
+  "homepage": "https://github.com/akiifall/homebridge-mqtt-temperaturesensor#readme"
 }
