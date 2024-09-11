@@ -1,0 +1,1 @@
+- Temperature Sensor Accessory with Local MQTT Server

@@ -1,0 +1,28 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "Homebridge",
+        "port": 51148,
+        "pin": "131-99-052"
+    },
+    "accessories": [
+        {
+            "accessory": "TemperatureSensor",
+            "name": "TemperatureSensor",
+            "manufacturer": "manufacturer",
+            "model": "model",
+            "serialNumber": "serialNumber",
+            "mqttUrl": "mqtt://localhost",
+            "mqttUser": "mqtt",
+            "mqttPass": "mqtt",
+            "topicStatus": "topic"
+        }
+    ],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        }
+    ]
+}

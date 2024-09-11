@@ -1,0 +1,43 @@
+{
+  "name": "homebridge-mqtt-temperaturesensor",
+  "version": "1.0.0",
+  "description": "temperaturesensor accessory plugin for homebridge written in Typescript",
+  "main": "dist/accessory.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akii the fall <ryokhan123@gmail.com>",
+  "engines": {
+    "homebridge": ">=1.0.0"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiifall/homebridge-mqtt-temperaturesensor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akiifall/homebridge-mqtt-temperaturesensor/issues"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.10",
+    "homebridge": "^1.3.8",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/ws": "^8.2.0",
+    "mqtt": "^4.2.8"
+  },
+  "homepage": "https://github.com/akiifall/homebridge-mqtt-thermohygrometer#readme"
+}
